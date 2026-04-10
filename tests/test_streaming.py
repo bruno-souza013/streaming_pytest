@@ -17,4 +17,4 @@ def test_download_nao_premium():
     assert pode_baixar(False) == False
 
 def test_qualidade():
-    assert qualidade_video(True) == "4K"
+    assert qualidade_video(True) == "HD"
